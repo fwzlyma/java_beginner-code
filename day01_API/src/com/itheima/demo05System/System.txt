@@ -1,0 +1,5 @@
+## System类
+    1.currentTimeMills()方法
+        获取当前系统毫秒值时间
+    2.arraycopy()方法
+        复制数组

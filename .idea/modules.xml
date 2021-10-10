@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day01_API/day01_API.iml" filepath="$PROJECT_DIR$/day01_API/day01_API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_Collection/day02_Collection.iml" filepath="$PROJECT_DIR$/day02_Collection/day02_Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_List&amp;Set/day03_List&amp;Set.iml" filepath="$PROJECT_DIR$/day03_List&amp;Set/day03_List&amp;Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_Map/day04_Map.iml" filepath="$PROJECT_DIR$/day04_Map/day04_Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05_ExceptionAndThread/day05_ExceptionAndThread.iml" filepath="$PROJECT_DIR$/day05_ExceptionAndThread/day05_ExceptionAndThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06_ThreadAndLambda/day06_ThreadAndLambda.iml" filepath="$PROJECT_DIR$/day06_ThreadAndLambda/day06_ThreadAndLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_FileAndRecursion/day07_FileAndRecursion.iml" filepath="$PROJECT_DIR$/day07_FileAndRecursion/day07_FileAndRecursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08_IOAndProperties/day08_IOAndProperties.iml" filepath="$PROJECT_DIR$/day08_IOAndProperties/day08_IOAndProperties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10_IO/day10_IO.iml" filepath="$PROJECT_DIR$/day10_IO/day10_IO.iml" />
+    </modules>
+  </component>
+</project>

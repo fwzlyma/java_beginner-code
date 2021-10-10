@@ -1,0 +1,16 @@
+## iterator
+    Iterator<String> it = collection.iterator();
+    collection.iterator(); 获取迭代器的实现类对象，并且会把指针(索引)指向集合的-1索引
+    it.hasNext();
+    *.hasNext()判断集合中还有没有下一个元素
+    *.next() :
+        1.取出下一个元素
+        2.把指针向后移动一位。
+
+## 增强for循环
+    JDK 1.5之后出来的一个高级for循环专门用来遍历数组和集合的。
+    内部原理其实是一个iterator迭代器，所以在遍历的过程中，不能对集合中的元素进行增删操作。
+    格式：
+        for(ElementType 变量 ： Collection集合或数组){
+            //写操作代码
+        }

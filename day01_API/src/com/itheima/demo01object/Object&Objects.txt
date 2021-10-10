@@ -1,0 +1,40 @@
+## Object 类
+    1.Object类介绍
+        Object类是所有类的父类。一个类都会直接或间接的继承自该类
+        该类中提供了一些非常常用的方法！
+    2.toString()方法
+        A:作用
+            打印对象的信息
+        B:重写前：打印的是包名类名@地址值
+        C:重写后：打印的是对象中的属性值。
+        1.String str ->  sout str  -> String 的 toString() 返回的是this
+            public String toString() {
+                return this;
+            }
+            所以String 的 sout 输出的是字符串的串串。
+        2.Student stu  -> sout stu  -> String 的 toString() 返回的是：
+            public String toString() {
+                return getClass().getName() + "@" + Integer.toHexString(hashCode());
+            }
+            所以Student 的 sout 输出的是包名.类名@哈希值
+    3.equals方法
+        A:作用：比较两个对象的
+        B:重写前：比较的是对象的地址值
+        C:重写后：比较的是对象中的属性值
+
+## Objects 类
+    1.equals()方法
+        比较两个对象是否相同，但是加了一些健壮性的判断！
+
+## Date 类
+    1.Date(): 获取当前系统的日期和时间
+        Date date = new Date();
+        System.out.println(date);
+    2.Date(long mills): 使用参数毫秒值（long类型）获取毫秒值对应的日期和时间。
+        Date d2 = new Date(100000000L);
+        System.out.println(d2);
+    3.date.getTimee(): 获取date对象对应的日期和时间对应的毫秒数。
+        Date date = new Date();//获取当前系统日期和时间
+        long time = date.getTime();//获取date对应的毫秒值
+        System.out.println(time);//1628736544681
+        System.out.println(new Date(1628736544681L));
